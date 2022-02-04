@@ -67,27 +67,6 @@ body {
     right: 21%;
 }
 
-@media (max-width: 1035px) {
-    .title-image {
-        width: 30%;
-        text-align: center;
-    }
-}
-
-@media (max-width: 991px) {
-
-    #title {
-        text-align: center;
-    }
-
-    .title-image {
-        position: static;
-        transform: rotate(0);
-        width: 60%;
-    }
-}
-
-
 /* Features */
 
 #features {
@@ -191,3 +170,57 @@ footer {
 .ficons {
     margin: 0% 10px 20px;
 }
+
+/* Media Query */
+
+
+@media (max-width: 1035px) {
+    .title-image {
+        width: 30%;
+    }
+
+    #title {
+        text-align: center;
+    }
+}
+
+@media (max-width: 991px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    }
+}
+
+@media (max-device-width: 425px) {
+    #features h3 {
+        font-size: 3rem;
+    }
+
+    #features p {
+        font-size: 2rem;
+    }
+
+    #testimonials em {
+        font-size: 2rem;
+    }
+
+    #pricing p {
+        font-size: 2rem;
+    }
+
+    #pricing li {
+        font-size: 1.3rem;
+    }
+
+    #footer {
+        font-size: 2rem;
+    }
+}
+
+
